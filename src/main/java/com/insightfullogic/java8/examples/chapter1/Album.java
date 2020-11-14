@@ -14,14 +14,13 @@ import static java.util.Collections.unmodifiableList;
 import static java.util.stream.Collectors.toList;
 
 /**
- *
  * @author richard
  */
 public final class Album implements Performance {
-    
-    private String name;
-    private List<Track> tracks;
-    private List<Artist> musicians;
+
+    private final String name;
+    private final List<Track> tracks;
+    private final List<Artist> musicians;
 
     public Album(String name, List<Track> tracks, List<Artist> musicians) {
         Objects.requireNonNull(name);

@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 
 public class Functional {
 
-    private JButton button = new JButton();
+    private final JButton button = new JButton();
 
     // BEGIN field_assignment
     private ActionEvent lastEvent;
